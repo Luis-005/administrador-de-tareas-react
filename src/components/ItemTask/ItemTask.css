@@ -1,0 +1,25 @@
+.boxitemsTask{
+  width: 30%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+  border-radius: 20px;
+}
+
+.boxitemsTask > :nth-child(1){
+  display: flex;
+  width: 80%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+}
+.boxitemsTask > :nth-child(2){
+  display: flex;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
